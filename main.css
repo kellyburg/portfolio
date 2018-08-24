@@ -1,4 +1,18 @@
-/*** Color Variables ***/
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+/*Create a horizontal list with spacing*/
+nav li {
+    display: inline-block;
+    float: left;
+    margin-right: 1px;
+}
+
+/*** Color Variables 
+
 :root {
 
     --color-1: #EB4B98; 
@@ -7,7 +21,7 @@
     --color-4: #BBDBD1;
     --color-5: #EEEEFF;
 }
-
+***/
 
 /** Color Experiments
 body{
