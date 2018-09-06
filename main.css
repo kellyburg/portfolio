@@ -27,13 +27,13 @@ header{
   
 }
 h1{
-  color: var(--color-1);
+  color: var(--color-5);
   padding-top: 15%;
   font-family: 'Fjalla One'; 
 
 }
 #tagline{
-  color: var(--color-1);
+  color: var(--color-5);
   font-family: 'Fjalla One';
 }
 h2{
@@ -56,4 +56,10 @@ h2{
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: var(--color-1);
+}
+.portfolio-img{
+  height: 250px;
+}
+.w3-third{
+  padding: 10px;
 }
