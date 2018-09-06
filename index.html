@@ -4,116 +4,122 @@
     <title>
         Kelly Burgess | Developer Portfolio
     </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="main.css" >
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto" rel="stylesheet">
+
 </head>
 
 <body>
-
-    <header>
-    
-        <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-                <div class="container">
-                  <a class="navbar-brand js-scroll-trigger" href="#page-top">Kelly Burgess | Developer Portfolio</a>
-                  <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fa fa-bars"></i>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-                     </li>
-                      <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#work">work</a>
-                      </li>
-                      <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-
+ 
+        <nav class="w3-bar">
+            <a href="#" class="w3-bar-item w3-button">Kelly Burgess | Developer Portfolio</a>
+            <a href="#about" class="w3-bar-item w3-button">About Kelly</a>
+            <a href="#work" class="w3-bar-item w3-button">Work</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+          </nav>
+      
     <!-- Header -->
-    <header class="bg-primary">
-      <div class="container">
-        <img class="img-fluid w-50 mb-5 d-block mx-auto" src="img/profile.jpeg" alt="kelly burgess">
-        <h1 class="text-uppercase mb-0">Kelly Burgess</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Web Developer - Problem Solver - Math Wizard</h2>
+    <header class="w3-container">
+      <div class="w3-container w3-half">
+        <h1 class="w3-jumbo">Kelly Burgess</h1><br>
+        <h2 id="tagline">Web Developer - Mathematician - Collaborator</h2>
+      </div>
+        <div class="w3-container w3-half">
+        <img class="w3-image" src="img/profile.jpeg" alt="kelly burgess" id="profile-img">
+      
       </div>
     </header>
 
+    <!--About Section-->
+    <section class="about" id="about">
+<h2 id="about-h2">About Kelly</h2>
+<div class="w3-row-padding">
+<div class="w3 container w3-third">
+<h3 style="text-align: center">Experience</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+<div class="w3 container w3-third">
+<h3 style="text-align: center">Goals</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+<div class="w3 container w3-third">
+<h3 style="text-align: center">Values</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+
+    </section>
+
     <!-- Work Section -->
-    <section class="portfolio" id="portfolio">
-            <div class="container">
-              <h2 class="text-center text-uppercase text-secondary mb-0">Work Samples</h2>
-              <hr class="star-dark mb-5">
-              <div class="row">
-                <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                      <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                        <i class="fa fa-search-plus fa-3x"></i>
-                      </div>
-                    </div>
-                    <img class="img-fluid" src="img/coming-soon.png" alt="">
-                  </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                      <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                        <i class="fa fa-search-plus fa-3x"></i>
-                      </div>
-                    </div>
-                    <img class="img-fluid" src="img/coming-soon.png" alt="">
-                  </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                      <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                        <i class="fa fa-search-plus fa-3x"></i>
-                      </div>
-                    </div>
-                    <img class="img-fluid" src="img/coming-soon.png" alt="">
-                  </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                      <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                        <i class="fa fa-search-plus fa-3x"></i>
-                      </div>
-                    </div>
-                    <img class="img-fluid" src="img/coming-soon.png" alt="">
-                  </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                      <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                        <i class="fa fa-search-plus fa-3x"></i>
-                      </div>
-                    </div>
-                    <img class="img-fluid" src="img/coming-soon.png" alt="">
-                  </a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                      <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                        <i class="fa fa-search-plus fa-3x"></i>
-                      </div>
-                    </div>
-                    <img class="img-fluid" src="img/coming-soon.png" alt="">
-                  </a>
+    <section class="work" id="work">
+<h2 id="work-h2">Work</h2>
+        <div class="w3-container">
+
+      <div class="w3-third">
+            <div class="w3-card">
+              <a href=""><img src="img/coming-soon.png" class="w3-image w3-hover-opacity" style="width:100%" alt="coming soon"></a>
+              <div class="w3-container">
+                <h4>Project 1</h4>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-third">
+              <div class="w3-card">
+                <img src="img/coming-soon.png" class="w3-image w3-hover-opacity" style="width:100%" alt="coming soon">
+                <div class="w3-container">
+                  <h4>Project 2</h4>
+                  <p>Description</p>
                 </div>
               </div>
             </div>
+            <div class="w3-third">
+                <div class="w3-card">
+                  <img src="img/coming-soon.png" class="w3-image w3-hover-opacity" style="width:100%" alt="coming soon">
+                  <div class="w3-container">
+                    <h4>Project 3</h4>
+                    <p>Description</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w3-third">
+                  <div class="w3-card">
+                    <img src="img/coming-soon.png" class="w3-image w3-hover-opacity" style="width:100%" alt="coming soon">
+                    <div class="w3-container">
+                      <h4>Project 4</h4>
+                      <p>Description</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w3-third">
+                    <div class="w3-card">
+                      <img src="img/coming-soon.png" class="w3-image w3-hover-opacity" style="width:100%" alt="coming soon">
+                      <div class="w3-container">
+                        <h4>Project 5</h4>
+                        <p>Description</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w3-third">
+                      <div class="w3-card">
+                        <img src="img/coming-soon.png" class="w3-image w3-hover-opacity" style="width:100%" alt="coming soon">
+                        <div class="w3-container">
+                          <h4>Project 6</h4>
+                          <p>Description</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    </section>
+    <!-- Portfolio Modals -->
+      <!--Contact Section-->
+      <section class="contact" id="contact">
+          <h2 id="contact-h2">Contact</h2>
+
           </section>
+      
+          <script src="script.js"/>    
         
 </body>
 </html>
