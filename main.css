@@ -110,3 +110,7 @@ p{
   border-bottom: 1px solid; /* Or whatever color you want */
   text-decoration: none;
 }
+
+.proj-desc{
+  min-height: 120px;
+}
