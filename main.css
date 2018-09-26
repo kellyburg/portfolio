@@ -26,6 +26,7 @@ header{
   text-align: center;
   color: var(--color-3);
   padding-bottom:20px;
+  border-bottom: 5px solid var(--color-3);
  
   
 }
@@ -41,29 +42,46 @@ h1{
   text-align: center;
 }
 h2{
-  text-align: left;
+  
   margin-left: 2%;
   font-family: var(--font-1); 
   color: black;
+}
+
+h3{
+  text-align: left;
+  font-family: var(--font-2);
+}
+h4{
+  font-family: var(--font-2);
+}
+
+ul{
+  font-family: var(--font-2);
 }
 p{
   font-family: var(--font-2);
 }
 
 #about{
+  text-align: justify;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: var(--color-5);
+  
 }
 #work{
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: var(--color-4);
+  
 }
 #contact{
   padding-top: 15px;
-  padding-bottom: 5px;
+  padding-bottom: 30px;
   background-color: var(--color-1);
+  
+  
 }
 .w3-third{
   padding: 15px;
@@ -83,4 +101,12 @@ p{
   border-bottom: solid;
   border-width: 1px;
   border-color: lightgray;
+}
+.contact-info{
+  padding-left: 2%;
+}
+
+.text-link {
+  border-bottom: 1px solid; /* Or whatever color you want */
+  text-decoration: none;
 }
